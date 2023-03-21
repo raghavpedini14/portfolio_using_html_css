@@ -1,0 +1,235 @@
+/* main elements */
+
+/* website versions page css */
+
+#web-versions-top-div {
+  text-align: left;
+  /* border: 1px solid red; */
+  /* font-family: 'Merriweather', serif; */
+  position: relative;
+}
+
+#web-versions-head1 {
+  position: absolute;
+  left: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+}
+
+#web-versions-head1-lists {
+  position: absolute;
+  top: 70px;
+  left: 15px;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  line-height: 30px;
+}
+
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    font-weight: bold;
+    line-height: 2;
+}
+
+
+/* top-container */
+
+#top-most-h3-heading {
+  left: 15px;
+  position: absolute;
+}
+
+#top-most-h3-heading-2 {
+  left: 230px;
+  position: absolute;
+}
+
+.top-container {
+  /* background-color: #eaf6f6; */
+  position: relative;
+}
+
+#top-cloud {
+    position: absolute;   
+    top: 80px;
+    right: 200px;
+
+}
+
+#bottom-cloud {
+    position: absolute;   
+    left: 200px;
+
+}
+
+/* h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 0px auto 0px auto;
+} */
+
+#top-container-text-h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 0px auto 0px auto;
+  padding-top: 143px;
+}
+
+#top-container-text-h2 {
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* top-container end */
+
+ /* mid-container  */
+
+   /* personal-info */
+
+.mid-container {
+    /* background-color: #eaf6f6; */
+}
+
+ #raghavprofilepic {
+    height: 150px;
+    margin-top: 50px;
+ }
+
+ #personal-info-desc {
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 41%;
+ }
+
+   /* myskills */
+
+   #skill-1 {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+   }
+
+   #skill-2{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+   }
+
+   #mid-container-heading {
+    margin-top: 0px;
+   }
+
+   #skills-desc-para2 {
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 72%
+   }
+
+   #skills-desc-para1 {
+    display: inline-block;
+    width: 72%
+   }
+
+   .skillimg {
+    height: 156px;
+    margin-top: 30px;;
+   }
+
+   #skillimg01 {
+    float: left;
+    margin-right: 20px;
+   }
+
+   #skillimg02 {
+    float: right;
+   }
+
+ /* mid-container end  */
+
+ /* bottom-container */
+
+ .bottom-container {
+  /* background-color: #eaf6f6; */
+ }
+
+ #getintouch-heading-h2 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+ }
+
+ #getintouch-heading-h3 {
+  margin-bottom: 50px;
+ }
+
+#btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#copyright {
+  margin-bottom: 0px;
+  /* color: #EAF6F6; */
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px 10px 0px 10px;
+  font-weight: bold;
+}
+
+.footer-links:hover {
+  color: #EAF6F6;
+}
+
+
+/* bottom-container-end */
